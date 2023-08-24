@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 1rem;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 2rem;
+}
+
+.boxes span {
+    color: #0754B2;
+    cursor: pointer;
+}
+
+.box-3 .address {
+    padding-bottom: 2rem;
+}
+
+input {
+    background-color: #e0e0e0;
+    padding: 0.5rem;
+    border: 2px solid transparent;
+    border-radius: 0.45rem;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #a0a0a0;
+}
+
+/* Textarea / Message Field */
+#message {
+    outline: none;
+    resize: none;
+    background-color: #e0e0e0;
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    border: 2px solid transparent;
+    border-radius: 0.45rem;
+    color: #a0a0a0;
+    height: 10rem;
+    width: 50rem;
+}
+
+/* Button */
+button {
+    background-color: #001F45;
+    color: #FFFFFF;
+    border: 2px solid transparent;
+    margin-top: 1.5rem;
+    border-radius: 0.45rem;
+    padding: 0.25rem 1.5rem 0.25rem 1.5rem;
+    display: block;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .boxes{
+        flex-wrap: wrap;
+    }
+
+    .box-3 {
+        padding-bottom: 2rem;
+    }
+
+    .box-3 .address {
+        padding-bottom: 0;
+    }
+
+    textarea {
+
+    }
+}
+
+@media (max-width: 650px) {
+    .boxes{
+        flex-direction: column;
+    }
+
+    .box-1, .box-2, .box-3 {
+        padding-bottom: 2rem;
+    }
+
+    .box-3 .address {
+        padding-bottom: 0;
+    }
+
+    textarea {
+
+    }
+}

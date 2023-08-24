@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Heading Div */
+.heading {
+    background-color: #00070F;
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem 0 1rem 0;
+}
+
+/* Content Div */
+.content {
+    padding: 0 0.85rem 0 0.85rem;
+}
+.content h2{
+    font-weight: bold;
+}
